@@ -23,7 +23,12 @@ export function Contact() {
   form.current,
   'P26Vf5bHw0PG6b9Vu'
 );
-      
+await emailjs.sendForm(
+  'service_dqk0syv',
+  'template_lby38jb',
+  form.current,
+  'P26Vf5bHw0PG6b9Vu'
+);      
       setSubmitStatus('success');
       form.current.reset();
     } catch (error) {
