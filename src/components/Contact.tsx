@@ -18,11 +18,11 @@ export function Contact() {
 
     try {
       await emailjs.sendForm(
-        'PASTE_YOUR_SERVICE_ID_HERE',
-        'PASTE_YOUR_TEMPLATE_ID_HERE',
-        form.current,
-        'PASTE_YOUR_PUBLIC_KEY_HERE'
-      );
+  'service_dqk0syv',
+  'template_khk2o6l',
+  form.current,
+  'P26Vf5bHw0PG6b9Vu'
+);
       
       setSubmitStatus('success');
       form.current.reset();
